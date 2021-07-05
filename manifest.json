@@ -1,0 +1,27 @@
+{
+  "name": "Edit URL before GET",
+  "description": "Add param to URL before GET!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "Ahmed Dávila Guerrero",
+  "background": {
+    "service_worker": "url_param.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/url_params_go16.png",
+      "32": "/images/url_params_go32.png",
+      "48": "/images/url_params_go48.png",
+      "128": "/images/url_params_go128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/url_params_go16.png",
+    "32": "/images/url_params_go32.png",
+    "48": "/images/url_params_go48.png",
+    "128": "/images/url_params_go128.png"
+  },
+  "options_page": "options.html"
+}
